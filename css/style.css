@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0
+}
+
+header {
+    display: block;
+    background: #00B0D8;
+    height: 40px;
+   }
+
+.cart-button {
+    width: 80px;
+    float: right;
+    border-radius: 23px;
+    margin-right: 20px;
+    margin-top: 10px;
+}
+
+.goods-list {
+    padding-left: 50px;
+    padding-top: 20px;
+}
+
+.goods-item {
+    text-align: center;
+    margin-left: 20px;
+    margin-top: 30px;
+    padding: 10px;
+    width: 150px;
+    height: 220px;
+    /* float: left; */
+    box-shadow: 0 0 5px #9fa8a3;
+
+    position: relative;
+    display: inline-block;
+}
+
+.img-item {
+    width: auto;
+    height: 120px;
+    border: 1px solid #9fa8a3;
+}
+
+.item-button {
+    border-radius: 15px;
+    width: 80px;
+    position: absolute;
+    bottom: 10px; right: 10px;
+
+    
+}
